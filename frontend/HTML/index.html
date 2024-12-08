@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Summarizer</title>
+  <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Logo">
+    <h1>TubeBrief - The Summarizer</h1>
+  </header>
+
+  <!-- Sidebar Menu -->
+  <nav class="sidebar">
+    <ul>
+      <li><a href="history.html">History</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="help.html">Help</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="login.html">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <h2>Enter a YouTube Video URL</h2>
+    <input type="text" id="video-url" placeholder="Paste YouTube URL here...">
+    <button id="summarize-btn">Summarize</button>
+    
+    <!-- Summary Area -->
+    <div class="summary-container">
+      <textarea id="summary" placeholder="Your Summary will appear here..." rows="16" cols="65"></textarea>
+      <ul id="summary-points"></ul>
+    </div>
+  </div>
+
+  <script src="../JS/script.js"></script>
+</body>
+</html>
+
+

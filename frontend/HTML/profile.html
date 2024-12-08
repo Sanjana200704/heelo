@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile - TubeBrief</title>
+  <link rel="stylesheet" href="../CSS/profile.css">
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-header">
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube Logo">
+        <h1>TubeBrief - The Summarizer</h1>
+    </div>
+      <h1>Profile Page</h1>
+    </div>
+
+    <div class="profile-content">
+      <!-- User Profile Picture -->
+      <div class="profile-picture">
+        <img id="profilePic" src="https://picsum.photos/200/300" alt="Profile Picture">
+        <button id="changePicBtn">Change Picture</button>
+      </div>
+
+      <!-- User Information -->
+      <div class="profile-info">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" value="Sanjana">
+        </div>
+        <div>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" value="2004-07-200">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" value="sanjanasharma@gmail.com">
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="text" id="phone" value="2738463341">
+        </div>
+      </div>
+
+      <!-- Update Info Button -->
+      <button id="updateBtn">Update Info</button>
+    </div>
+  </div>
+
+  <script src="../JS/profile.js"></script>
+</body>
+</html>

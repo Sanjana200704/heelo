@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+  color: #fff;
+  display: flex;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+header img{
+  width: 50px;
+  margin-right: 10px ;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  width: 100%;
+}
+
+.sidebar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ddd;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #444;
+  color: #fff;
+  font-size: 1.2rem; /* Increase size on hover */
+  transform: scale(1.1); /* Slightly enlarge the element */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+/* Main Content Styles */
+.main-content {
+  margin-left: 270px;
+  padding: 100px 20px 20px 20px; /* Adjust for header */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.main-content input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.main-content button {
+  background-color:#6a11cb ;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-content button:hover {
+  background-color: #2575fc;
+}
+
+/* Summary Area Styles */
+.summary-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.summary-container textarea {
+  width: 80%;
+  max-width: 600px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.summary-container ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
+}
+

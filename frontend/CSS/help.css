@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #0078D7;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.8em;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #d4e4f7;
+  }
+  
+  /* Main Content Styles */
+  main {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #0078D7;
+    font-size: 1.5em;
+    border-bottom: 2px solid #0078D7;
+    padding-bottom: 5px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h3 {
+    font-size: 1.2em;
+    color: #444;
+  }
+  
+  section p, section ul {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  /* Support Info */
+  section strong {
+    color: #0078D7;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0078D7;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+  
+    header nav a {
+      margin-left: 10px;
+      font-size: 0.9em;
+    }
+  
+    main {
+      margin: 20px;
+      padding: 15px;
+    }
+  }
+  
